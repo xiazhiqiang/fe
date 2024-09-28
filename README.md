@@ -1,6 +1,9 @@
-fe
+# FE
 
 前端通用包
+
+- [fe-request](./packages/fe-request/README.md)
+- [fe-upload](./packages/fe-upload/README.md)
 
 ## Install
 
@@ -8,7 +11,7 @@ fe
 yarn install --ignore-scripts --registry=https://registry.npmjs.com
 ```
 
-## Usage
+## Development
 
 ```sh
 yarn workspace <pkgName> run <scripts>
