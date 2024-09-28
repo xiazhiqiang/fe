@@ -1,0 +1,9 @@
+node_modules
+/dist
+/es
+/lib
+/docs-dist
+/.dumi
+.DS_Store
+yarn.lock
+*.log
