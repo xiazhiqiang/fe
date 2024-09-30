@@ -1,0 +1,82 @@
+.card {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+
+  .title {
+    padding: 16px 14px;
+    height: 48px;
+    background-color: #f6f6f9;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      align-items: center;
+
+      .num {
+        margin-right: 4px;
+        height: 16px;
+        font-family: Avenir-BlackOblique;
+        font-weight: 900;
+        font-size: 16px;
+        color: #615ced;
+        line-height: 16px;
+      }
+
+      .main {
+        height: 22px;
+        font-family: PingFangSC;
+        font-weight: 500;
+        font-size: 14px;
+        color: #333333;
+        letter-spacing: 0;
+        line-height: 22px;
+      }
+    }
+
+    .right {
+      .tab {
+        width: 121px;
+        height: 28px;
+        background-color: #e6e6ef;
+        border-radius: 4px;
+        font-family: PingFangSC;
+        font-weight: 400;
+        font-size: 12px;
+        color: #808080;
+        text-align: center;
+        line-height: 18px;
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        div {
+          width: 50%;
+          padding: 4px;
+        }
+
+        .checked {
+          margin: 2px 2px;
+          padding: 0px;
+          width: 50%;
+          background-color: #fff;
+          border-radius: 2px;
+          font-family: PingFangSC;
+          font-weight: 400;
+          font-size: 12px;
+          color: #333;
+          text-align: center;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .body {
+    padding: 16px;
+  }
+}

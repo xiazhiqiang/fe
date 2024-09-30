@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "form-render-sdk": ["src"],
+      "form-render-sdk/*": ["src/*", "*"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [".dumirc.ts", "src/**/*"]
+}

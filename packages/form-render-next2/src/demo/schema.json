@@ -1,0 +1,41 @@
+{
+  "form": { "labelCol": 6, "wrapperCol": 12 },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "j425m92ytgo": {
+        "type": "string",
+        "title": "Input",
+        "x-decorator": "FormItem",
+        "x-component": "Input",
+        "x-validator": [],
+        "x-component-props": {},
+        "x-decorator-props": {},
+        "x-designable-id": "j425m92ytgo",
+        "x-index": 0
+      },
+      "ydlek07ta9f": {
+        "type": "string",
+        "title": "TextArea",
+        "x-decorator": "FormItem",
+        "x-component": "Input.TextArea",
+        "x-validator": [],
+        "x-component-props": {},
+        "x-decorator-props": {},
+        "x-designable-id": "ydlek07ta9f",
+        "x-index": 1
+      },
+      "cmz9rpqtbvu": {
+        "title": "Select",
+        "x-decorator": "FormItem",
+        "x-component": "Select",
+        "x-validator": [],
+        "x-component-props": {},
+        "x-decorator-props": {},
+        "x-designable-id": "cmz9rpqtbvu",
+        "x-index": 2
+      }
+    },
+    "x-designable-id": "ljfxyvd2blm"
+  }
+}
