@@ -4,6 +4,9 @@
 
 - [fe-request](./packages/fe-request/README.md)
 - [fe-upload](./packages/fe-upload/README.md)
+- [form-design-next](./packages/form-design-next/README.md)
+- [form-render-next2](./packages/form-render-next2/README.md)
+- [form-render-sdk](./packages/form-render-sdk/README.md)
 
 ## Install
 
