@@ -1,0 +1,107 @@
+.big-upload {
+  .next-upload-inner {
+    display: block;
+  }
+  .next-upload-list.next-upload-list-text {
+    overflow-y: auto;
+    max-height: 278px;
+  }
+  .next-upload-list-text .next-upload-list-item {
+    margin-top: 8px;
+    padding: 0 36px 8px 8px;
+    height: 44px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cbcbcb;
+    background-color: transparent;
+  }
+  .next-upload-list-text .next-upload-list-item-error {
+    background-color: transparent !important;
+  }
+  .next-upload-list-item-size {
+    display: none;
+  }
+  .next-upload-list-text .next-upload-list-item-error-msg {
+    display: none;
+  }
+
+  .uploadWrapper {
+    padding: 24px 0;
+    border: 1px dashed #ccc;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .uploadActions {
+      margin: 8px 0;
+      font-size: 12px;
+      color: #333;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 18px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .uploadTips {
+      margin: 0 20px;
+      font-size: 12px;
+      color: #808080;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 18px;
+    }
+
+    .linkWrapper {
+      padding: 4px 8px;
+      height: 40px;
+      font-size: 12px;
+      background-color: #f7f8fa;
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .renderFileWrapper {
+    display: flex;
+    align-items: center;
+
+    .renderFileMain {
+      line-height: 18px;
+    }
+    .renderFileImgWrapper {
+      margin-right: 8px;
+      .renderFileImg {
+        width: 24px;
+        height: 32px;
+        vertical-align: top;
+      }
+    }
+    .renderFileTitle {
+      font-weight: 500;
+      font-size: 12px;
+      color: #333333;
+    }
+    .renderFileSubTitle {
+      margin: 0 0 0 4px;
+      font-weight: 400;
+      font-size: 12px;
+      color: #808080;
+    }
+    .renderFileError {
+      font-weight: 400;
+      font-size: 12px;
+      color: #c80000;
+    }
+    // .link:hover {
+    //     text-decoration: underline;
+    //     cursor: pointer;
+    // }
+  }
+}
