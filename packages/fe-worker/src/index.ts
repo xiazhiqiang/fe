@@ -1,3 +1,1 @@
-export default function() {
-  return '111';
-}
+export default () => null;

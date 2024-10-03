@@ -28,13 +28,17 @@ const rotateFn = (url, params = {}) => {
 };
 function rotateStateHandler(event, data) {
   const { interfaceUrl } = data || {};
-  let reset = true;
+  if (!interfaceUrl) {
+    return;
+  }
 
   // 定时轮训接口状态
   if (rotateStateTimer) {
     clearInterval(rotateStateTimer);
     rotateStateTimer = null;
   }
+
+  let reset = true;
   rotateStateTimer = setInterval(() => {
     rotateFn(interfaceUrl, { reset });
     reset = false;
@@ -47,7 +51,6 @@ function stopRotateStateHandler(event, data) {
   rotateStateTimer = null;
 }
 
-const msgTypesList = ['msg', 'close', 'rotateState', 'stopRotateState'];
 const handlersMap = {
   msgHandler,
   closeHandler,
@@ -59,7 +62,7 @@ self.addEventListener('message', function (event) {
   const { type, data } = event && event.data ? event.data : {};
 
   // 验证消息type类型
-  if (!msgTypesList.includes(type) || !handlersMap[`${type}Handler`]) {
+  if (!handlersMap[`${type}Handler`]) {
     return;
   }
 

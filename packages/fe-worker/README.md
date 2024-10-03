@@ -8,6 +8,13 @@
 - 脚本限制：不能使用 alert，confirm 方法，但可使用 XMLHttpRequest 发送请求
 - 文件限制：无法读取 file://文件系统，但可以通过网络加载文件
 
+## SharedWorker
+
+- 本地分别打开：
+  - page1: http://localhost:8000/page1
+  - page2: http://localhost:8000/page2
+  - [chrome 调试](chrome://inspect/#workers)
+
 ## References
 
 - [MDN Web Worker](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers)
