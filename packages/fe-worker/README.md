@@ -1,0 +1,18 @@
+# fe-worker
+
+## WebWorker
+
+- 同源限制：worker 脚本必须与主进程脚本同源
+- DOM 限制：worker 进程中无法读取主进程所有 DOM 对象，也无法使用 window，document，parent，但可使用 navigator 和 location
+- 主进程通信：不能直接通信，可通过消息通信
+- 脚本限制：不能使用 alert，confirm 方法，但可使用 XMLHttpRequest 发送请求
+- 文件限制：无法读取 file://文件系统，但可以通过网络加载文件
+
+## References
+
+- [MDN Web Worker](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers)
+- [阮一峰 Web Worker 使用教程](https://www.ruanyifeng.com/blog/2018/07/web-worker.html)
+
+## LICENSE
+
+MIT
