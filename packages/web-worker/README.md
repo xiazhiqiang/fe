@@ -1,4 +1,4 @@
-# fe-worker
+# web-worker
 
 ## WebWorker
 
@@ -19,6 +19,7 @@
 
 - [MDN Web Worker](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers)
 - [阮一峰 Web Worker 使用教程](https://www.ruanyifeng.com/blog/2018/07/web-worker.html)
+- [WebWorker 中可使用的函数或类](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers)
 
 ## LICENSE
 

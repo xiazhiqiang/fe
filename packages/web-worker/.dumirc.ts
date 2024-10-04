@@ -4,7 +4,7 @@ export default defineConfig({
   mfsu: false,
   outputPath: 'docs-dist',
   themeConfig: {
-    name: 'fe-worker',
+    name: 'web-worker',
   },
   alias: {
     '@/': './src/',
