@@ -1,3 +1,4 @@
+// 初始化状态
 chrome.runtime.onInstalled.addListener(() => {
   chrome.action.setBadgeText({ text: "OFF" });
 });
