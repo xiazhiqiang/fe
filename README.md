@@ -16,6 +16,12 @@ yarn install --ignore-scripts --registry=https://registry.npmjs.com
 
 ## Development
 
+- 组件开发
+
+```sh
+npx create-dumi
+```
+
 ```sh
 yarn workspace <pkgName> run <scripts>
 ```

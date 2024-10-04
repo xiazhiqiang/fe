@@ -1,5 +1,7 @@
 # chrome 插件
 
+插件弹出配置面板
+
 ## Reference
 
 - [Chrome 插件开发指南](https://developer.chrome.com/docs/extensions/get-started?hl=zh-cn)

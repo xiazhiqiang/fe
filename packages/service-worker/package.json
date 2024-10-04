@@ -1,9 +1,16 @@
 {
-  "name": "web-worker",
-  "version": "0.1.0",
+  "name": "service-worker",
+  "version": "0.0.1",
   "description": "",
   "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "types": "es/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
@@ -45,7 +52,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@umijs/lint": "^4.0.0",
-    "dumi": "^2.3.0",
+    "dumi": "^2.2.13",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
     "husky": "^8.0.1",
@@ -65,13 +72,6 @@
     "access": "public"
   },
   "authors": [
-    "xiazhiqiang"
-  ],
-  "fimain": "lib/index.js",
-  "mles": [
-    "dist",
-    "es",
-    "lib"
-  ],
-  "odule": "es/index.js"
+    "Miles"
+  ]
 }
