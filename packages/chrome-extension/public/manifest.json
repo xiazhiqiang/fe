@@ -1,0 +1,23 @@
+{
+  "name": "Chrome Extension",
+  "version": "1.0.0",
+  "description": "React开发chrome插件V3 Demo。",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["storage", "declarativeContent"],
+  "host_permissions": [],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/images/app.png",
+      "32": "/images/app.png",
+      "48": "/images/app.png",
+      "128": "/images/app.png"
+    },
+    "default_title": "MyExtension"
+  }
+}
