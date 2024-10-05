@@ -1,19 +1,6 @@
-module.exports = {
-  pluginSearchDirs: false,
-  plugins: [
-    // require.resolve('prettier-plugin-organize-imports'),
-    require.resolve('prettier-plugin-packagejson'),
-  ],
-  printWidth: 80,
-  proseWrap: 'never',
-  singleQuote: true,
-  trailingComma: 'all',
-  overrides: [
-    {
-      files: '*.md',
-      options: {
-        proseWrap: 'preserve',
-      },
-    },
-  ],
-};
+const { getPrettierConfig } = require('@iceworks/spec');
+
+const config = getPrettierConfig('react');
+config.pluginSearchDirs = false;
+
+module.exports = config;

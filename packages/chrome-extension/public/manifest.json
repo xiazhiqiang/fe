@@ -1,23 +1,18 @@
 {
-  "name": "Chrome Extension",
-  "version": "1.0.0",
-  "description": "React开发chrome插件V3 Demo。",
   "manifest_version": 3,
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"]
-    }
-  ],
-  "permissions": ["storage", "declarativeContent"],
-  "host_permissions": [],
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "chrome extension",
   "action": {
-    "default_popup": "index.html",
-    "default_icon": {
-      "16": "/images/app.png",
-      "32": "/images/app.png",
-      "48": "/images/app.png",
-      "128": "/images/app.png"
-    },
-    "default_title": "MyExtension"
-  }
+    "default_title": "MyExtension",
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidePanel.html"
+  },
+  "background": {
+    "service_worker": "js/service-worker.js",
+    "type": "module"
+  },
+  "permissions": ["sidePanel", "tabs", "scripting"]
 }
