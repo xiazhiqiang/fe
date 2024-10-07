@@ -1,0 +1,19 @@
+.container {
+  width: 200px;
+  padding: 0 20px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+}
