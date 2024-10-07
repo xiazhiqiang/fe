@@ -1,12 +1,13 @@
 {
-  "private": true,
   "name": "fe",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "repository": "git@github.com:xiazhiqiang/fe.git",
-  "author": "zhiqiangxia.xzq <zhiqiangxia.xzq@alibaba-inc.com>",
   "license": "MIT",
+  "author": "zhiqiangxia.xzq <zhiqiangxia.xzq@alibaba-inc.com>",
+  "main": "index.js",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "examples/*"
   ]
 }

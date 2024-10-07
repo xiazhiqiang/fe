@@ -1,7 +1,7 @@
 {
   "useWorkspaces": true,
   "version": "independent",
-  "packages": ["packages/*"],
+  "packages": ["packages/*", "examples/*"],
   "npmClient": "yarn",
   "npmClientArgs": ["--ignore-engines"]
 }
